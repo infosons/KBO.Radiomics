@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Gibbs Sea Water Functions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Gibbs Sea Water Functions
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;gsw&rsquo; version 1.0-3</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="gsw.html">gsw-package</a></td>
+<td>R implementation of the Thermodynamic Equation Of Seawater - 2010 (TEOS-10)</td></tr>
+<tr><td style="width: 25%;"><a href="argfix.html">argfix</a></td>
+<td>Reshape list elements to match the shape of the first element.</td></tr>
+<tr><td style="width: 25%;"><a href="gsw.html">gsw</a></td>
+<td>R implementation of the Thermodynamic Equation Of Seawater - 2010 (TEOS-10)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_adiabatic_lapse_rate_from_CT.html">gsw_adiabatic_lapse_rate_from_CT</a></td>
+<td>Adiabatic lapse rate from Conservative Temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_alpha.html">gsw_alpha</a></td>
+<td>Thermal expansion coefficient with respect to Conservative Temperature. (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_alpha_on_beta.html">gsw_alpha_on_beta</a></td>
+<td>Thermal expansion coefficient over haline contraction coefficient (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_alpha_wrt_t_exact.html">gsw_alpha_wrt_t_exact</a></td>
+<td>Thermal expansion coefficient with respect to in-situ temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_beta.html">gsw_beta</a></td>
+<td>Saline contraction coefficient at constant Conservative Temperature. (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_beta_const_t_exact.html">gsw_beta_const_t_exact</a></td>
+<td>Saline contraction coefficient at constant in-situ temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_cabbeling.html">gsw_cabbeling</a></td>
+<td>Cabbeling coefficient (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_cp_t_exact.html">gsw_cp_t_exact</a></td>
+<td>Isobaric heat capacity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_CT_freezing.html">gsw_CT_freezing</a></td>
+<td>Conservative temperature freezing point</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_CT_from_pt.html">gsw_CT_from_pt</a></td>
+<td>Conservative Temperature from potential temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_CT_from_t.html">gsw_CT_from_t</a></td>
+<td>Convert from temperature to conservative temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_C_from_SP.html">gsw_C_from_SP</a></td>
+<td>Electrical conductivity from Practical Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_deltaSA_from_SP.html">gsw_deltaSA_from_SP</a></td>
+<td>Absolute Salinity Anomaly from Practical Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_dynamic_enthalpy.html">gsw_dynamic_enthalpy</a></td>
+<td>Dynamic enthalpy of seawater (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_enthalpy.html">gsw_enthalpy</a></td>
+<td>Specific enthalpy of seawater (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_enthalpy_t_exact.html">gsw_enthalpy_t_exact</a></td>
+<td>Specific enthalpy of seawater</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_entropy_from_t.html">gsw_entropy_from_t</a></td>
+<td>Specific entropy as a function of in-situ temperature and pressure</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_grav.html">gsw_grav</a></td>
+<td>Gravitational acceleration</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_internal_energy.html">gsw_internal_energy</a></td>
+<td>Specific internal energy of seawater (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_IPV_vs_fNsquared_ratio.html">gsw_IPV_vs_fNsquared_ratio</a></td>
+<td>Ratio of vert. gradient of pot. density to vert grad of locally-referenced pot density</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_kappa.html">gsw_kappa</a></td>
+<td>Isentropic compressibility of seawater</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_kappa_t_exact.html">gsw_kappa_t_exact</a></td>
+<td>Isentropic compressibility of seawater</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_latentheat_evap_CT.html">gsw_latentheat_evap_CT</a></td>
+<td>Latent heat of evaporation</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_latentheat_evap_t.html">gsw_latentheat_evap_t</a></td>
+<td>Latent heat of evaporation</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_latentheat_melting.html">gsw_latentheat_melting</a></td>
+<td>Latent heat of melting</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_Nsquared.html">gsw_Nsquared</a></td>
+<td>Calculate Brunt Vaisala Frequency squared</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_pot_rho_t_exact.html">gsw_pot_rho_t_exact</a></td>
+<td>Potential density</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_pt0_from_t.html">gsw_pt0_from_t</a></td>
+<td>Potential temperature referenced to the surface</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_pt_from_CT.html">gsw_pt_from_CT</a></td>
+<td>Potential temperature from Conservative Temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_pt_from_t.html">gsw_pt_from_t</a></td>
+<td>Potential temperature from in-situ temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_p_from_z.html">gsw_p_from_z</a></td>
+<td>Pressure from z</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_rho.html">gsw_rho</a></td>
+<td>In-situ density (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_rho_first_derivatives.html">gsw_rho_first_derivatives</a></td>
+<td>SA, CT and p partial derivatives of density (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_rho_t_exact.html">gsw_rho_t_exact</a></td>
+<td>In-situ density</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SA_from_rho.html">gsw_SA_from_rho</a></td>
+<td>Convert from density to absolute salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SA_from_SP.html">gsw_SA_from_SP</a></td>
+<td>Convert from practical salinity to absolute salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SA_from_Sstar.html">gsw_SA_from_Sstar</a></td>
+<td>Absolute Salinity from Preformed Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sigma0.html">gsw_sigma0</a></td>
+<td>Potential density anomaly referenced to 0 dbar</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sigma1.html">gsw_sigma1</a></td>
+<td>Potential density anomaly referenced to 1000 dbar</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sigma2.html">gsw_sigma2</a></td>
+<td>Potential density anomaly referenced to 2000 dbar</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sigma3.html">gsw_sigma3</a></td>
+<td>Potential density anomaly referenced to 3000 dbar</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sigma4.html">gsw_sigma4</a></td>
+<td>Potential density anomaly referenced to 4000 dbar</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sound_speed.html">gsw_sound_speed</a></td>
+<td>Sound speed with 48-term density</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_sound_speed_t_exact.html">gsw_sound_speed_t_exact</a></td>
+<td>Sound speed</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_specvol.html">gsw_specvol</a></td>
+<td>Specific volume</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_specvol_anom.html">gsw_specvol_anom</a></td>
+<td>Specific volume anomaly</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_specvol_t_exact.html">gsw_specvol_t_exact</a></td>
+<td>Specific volume</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SP_from_C.html">gsw_SP_from_C</a></td>
+<td>Convert from electrical conductivity to practical salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SP_from_SA.html">gsw_SP_from_SA</a></td>
+<td>Convert from Absolute Salinity to Practical Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SP_from_SK.html">gsw_SP_from_SK</a></td>
+<td>Calculate Practical Salinity from Knudsen Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SP_from_SR.html">gsw_SP_from_SR</a></td>
+<td>Calculate Practical Salinity from Reference Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SP_from_Sstar.html">gsw_SP_from_Sstar</a></td>
+<td>Practical Salinity from Preformed Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_SR_from_SP.html">gsw_SR_from_SP</a></td>
+<td>Calculate Reference Salinity from Practical Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_Sstar_from_SA.html">gsw_Sstar_from_SA</a></td>
+<td>Convert from Absolute Salinity to Preformed Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_Sstar_from_SP.html">gsw_Sstar_from_SP</a></td>
+<td>Convert from Practical Salinity to Preformed Salinity</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_thermobaric.html">gsw_thermobaric</a></td>
+<td>Thermobaric coefficient (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_Turner_Rsubrho.html">gsw_Turner_Rsubrho</a></td>
+<td>Turner angle and density ratio</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_t_freezing.html">gsw_t_freezing</a></td>
+<td>Freezing temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_t_from_CT.html">gsw_t_from_CT</a></td>
+<td>In situ temperature from Conservative Temperature</td></tr>
+<tr><td style="width: 25%;"><a href="gsw_z_from_p.html">gsw_z_from_p</a></td>
+<td>Height from pressure (48-term equation)</td></tr>
+<tr><td style="width: 25%;"><a href="saar.html">saar</a></td>
+<td>Global SA lookup file</td></tr>
+</table>
+</body></html>

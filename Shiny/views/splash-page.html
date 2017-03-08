@@ -1,0 +1,42 @@
+
+<h1>Benvenuto in KBO.Radiomics</h1>
+KBO.Radiomics &egrave; un'interfaccia  che permette di mostrare le potenzialit&agrave; di MODDICOM, il software di analisi Radiomica sviluppato dal KBO Lab del dipartimento di Radioterapia, <a href="http://www.gemelliart.it/" target="_new">Gemelli ART</a> della Fondazione "Policlinico Gemelli".
+
+<h3>Cosa posso fare con KBO.Radiomics?</h3>
+Con KBO.Radiomics potrai crearti un dizionario di ROI e Dati Clinici, un tuo database di Pazienti di cui possiedi immagini DICOM, estrarre feature, effettuare delle cross-correlation tra covariate calcolate, ed altre analisi complesse.
+
+<h3>Come faccio a fare queste analisi?</h3>
+Prima di tutto &egrave; necessario crearsi un Dizionario di ROI e Dati Clinici e poi un Database di Pazienti.
+
+<h3>Come faccio a crearmi un dizionario di Dati Clinici?</h3>
+Clicca alla voce di Menu <strong>Dizionari</strong>,sul tab <strong>Dizionario Dati Clinici</strong> e poi su <strong>Aggiungi Voce</strong> per ogni Dato Clinico da aggiungere. Da qui potrai anche modificare ed eliminare i Dati clinici precedentemente inseriti. E' possibile inserire due tipologie di Dati Clinici :
+<ul>
+<li>INPUT: Dati di input relativi ad un paziente (es. peso) </li>
+<li>OUTPUT: Dati di output relativi ad un paziente (es. sopravvivenza)</li>
+</ul>
+
+<h3>Come faccio a crearmi un dizionario di ROI?</h3>
+Clicca alla voce di Menu <strong>Dizionari</strong>, sul tab <strong>Dizionario ROI</strong> e poi su <strong>Aggiungi Voce</strong> per ogni ROI da aggiungere. Da qui potrai anche modificare ed eliminare i ROI precedentemente inseriti. 
+
+<h3>Come faccio a crearmi un database di Pazienti?</h3>
+Clicca alla voce di Menu <strong>Pazienti</strong> e su <strong>Aggiungi Voce</strong> per ogni paziente che vorrai aggiungere. Ti chieder&agrave; un nome e una cartella da cui prelevare le immagini DICOM.Da qui potrai anche modificare ed eliminare i Pazienti precedentemente inseriti. Potrai inoltre raggiungere la schermata <strong>Paziente</strong> (attraverso l'icona <i class="fa fa-eye"></i>) . Da questa schermata potrai inserire per il paziente i valori dei Dati Clinici del tuo dizionario. Potrai inoltre associare  i ROI del tuo dizionario con i ROI del paziente.
+
+
+<h3>Ho inserito i Dati clinici, le ROI e i Pazienti. E ora?</h3>
+Ora puoi iniziare ad avere un assaggio di cosa puoi ottenere attraverso l'analisi Radiomica e MODDICOM. Cliccando su <strong>Radiomica</strong> attraverso alcuni step ti permetter&agrave; di fare alcune analisi sul il tuo database di pazienti.
+<ul>
+<li>Prima di tutto dovrai selezionare i pazienti su cui fare le analisi. Per selezionare un paziente basta cliccarci sopra con il mouse finch&egrave; la riga non cambia colore</li>
+<li>Una volta selezionati i pazienti potrai passare al tab <strong>ROI</strong>. Da qui potrai selezionare tutti i ROI che sono stati associati a tutti i pazienti selezionati</li>
+<li>Nel tab <strong>Feature</strong> potrai selezionare le Feature da estrarre e i Filtri da applicare nell'analisi</li>
+<li>Nel tab <strong>Math Model</strong> potrai selezionare i Modelli matemiatici da utilizzare all'analisi</li>
+<li>Nel tab <strong>Extract</strong> finalmente potrai iniziare l'estrazione delle Feature. Questo processo potrebbe essere molto lungo. L'interfaccia non &egrave; ferma durante l'estrazione, un Messaggio in alto riassumer&agrave; il progresso mentre in questo tab potrai vedere le singole estrazioni</li>
+<li>Una volta terminata l'estrazione nel tab <strong>Results</strong> potrai visualizzare i risultati complessivamente</li>
+<li>Nel tab <strong>Monovariate Analisys</strong> potrai visualizzare i coefficienti calcolati. Da qui selezionando le covariate (righe della tabella) sar&agrave; possibile nel tab <strong>Feature Selection</strong> visualizzare la cross-correlation-table tra le covariate selezionate</li>
+<li>Infone nel tab <strong>Feature Selection</strong> selezionando le covariate dalla cross-correlation-table sar&agrave; possibile visualizzare il grafico della ROC e calcolare l'AUC.
+</ul>
+
+<h3>Cosa vuol dire <strong>Solo con Enterprise</strong>?</h3>
+KBO.Radiomics mostra solo alcune delle funzioni di cui &egrave; dotato MODDICOM. Per avere informazioni sui come poter utilizzare le funzionalit&agrave; non attive in questa versione compilare il seguente <a target="_new" href="https://www.wrike.com/frontend/requestforms/index.html?token=eyJhY2NvdW50SWQiOnsiaWQiOjEyNTIxMTh9LCJ0YXNrRm9ybUlkIjp7ImlkIjoyNDQ1NX19CTQ2MjY5NTQyNzM2MTYJM2NiYjQ1NTI5NjMzZjRhYzQ0NzQ4YmM0Y2M2ZjYzYTQ4MDEwNDkyMGI5MWQ2ZTJhNjMyMThkNTBkNGNhMjliNw==">form</a>
+
+<h3>Come &egrave; stato sviluppato KBO.Radiomics?</h3>
+KBO.Radiomics &egrave; stato sviluppato da <a target="_new" href="http://www.infosons.com">Infosons</a> utilizzando <a href="http://shiny.rstudio.com/" target="_new">Shiny</a> e <a href="https://sourceforge.net/projects/rportable/" target="_new">R-Portable</a>

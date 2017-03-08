@@ -1,0 +1,56 @@
+Rvcg-package            Interface between R and vcglib libraries for
+                        mesh operations
+checkFaceOrientation    check the orientation of a mesh
+dummyhead               dummyhead - dummy head and landmarks
+humface                 Example mesh and landmarks
+meshintegrity           check if an object of class mesh3d contains
+                        valid data
+setRays                 helper function to create an object to be
+                        processed by vcgRaySearch
+vcgArea                 compute surface area of a triangular mesh
+vcgBallPivoting         Ball pivoting surface reconstruction
+vcgBary                 get barycenters of all faces of a triangular
+                        mesh
+vcgBorder               find all border vertices and faces of a
+                        triangular mesh
+vcgClean                Clean triangular surface meshes
+vcgClost                Project coordinates onto a target triangular
+                        surface mesh.
+vcgClostKD              Project coordinates onto a target triangular
+                        surface mesh using KD-tree search
+vcgClostOnKDtreeFromBarycenters
+                        search a KD-tree from Barycenters for multiple
+                        closest point searches on a mesh
+vcgCreateKDtree         create a KD-tree
+vcgCreateKDtreeFromBarycenters
+                        create a KD-tree from Barycenters for multiple
+                        closest point searches on a mesh
+vcgCurve                calculate curvature of a triangular mesh
+vcgGetEdge              Get all edges of a triangular mesh
+vcgImport               Import common mesh file formats.
+vcgIsolated             Remove isolated pieces from a surface mesh or
+                        split into connected components
+vcgIsosurface           Create Isosurface from 3D-array
+vcgKDtree               perform kdtree search for 3D-coordinates.
+vcgKmeans               fast Kmean clustering for 1D, 2D and 3D data
+vcgMeshres              calculates the average edge length of a
+                        triangular mesh
+vcgMetro                evaluate the difference between two triangular
+                        meshes.
+vcgNonBorderEdge        Get all non-border edges
+vcgPlyRead              Import ascii or binary PLY files.
+vcgPlyWrite             Export meshes to PLY-files
+vcgQEdecim              Performs Quadric Edge Decimation on triangular
+                        meshes.
+vcgRaySearch            check if a mesh is intersected by a set of rays
+vcgSample               Subsamples points on a mesh surface
+vcgSearchKDtree         search an existing KD-tree
+vcgSmooth               Smoothes a triangular mesh
+vcgSphere               create platonic objects as triangular meshes
+vcgStlWrite             Export meshes to STL-files
+vcgSubdivide            subdivide the triangles of a mesh
+vcgUniformRemesh        Resample a mesh uniformly
+vcgUpdateNormals        updates vertex normals of a triangular meshes
+                        or point clouds
+vcgVFadj                find all faces belonging to each vertex in a
+                        mesh

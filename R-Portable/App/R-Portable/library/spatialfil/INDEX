@@ -1,0 +1,4 @@
+applyFilter             Function for applying convolution kernel to a
+                        matrix or array
+convKernel              Function for creating convolution kernel for
+                        different filters
